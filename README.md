@@ -8,7 +8,7 @@
 ## The Engineering Challenge
 Experimental data from Particle Image Velocimetry (PIV) in high-speed aerodynamics is inherently noisy and fragmented across thousands of temporal snapshots. Manually inspecting these files to identify critical flow structures—like shock waves and sonic lines—is highly inefficient.
 
-This repository contains a **custom Python data pipeline** designed to autonomously ingest, reshape, and statistically process 1,000 discrete PIV datasets of an under-expanded supersonic jet ($M_e = 1.0$). The pipeline programmatically extracts stable turbulence metrics and identifies complex aerodynamic features without human visual intervention.
+This repository contains a **custom Python data pipeline** designed to autonomously ingest, reshape, and statistically process 1,000 discrete PIV datasets of an under-expanded supersonic jet ($M = 1.0$). The pipeline programmatically extracts stable turbulence metrics and identifies complex aerodynamic features.
 
 ### Analytics Impact & Scale
 * **Data Ingestion:** Automated the parsing and structural reshaping of 1,000 raw CSV files into 3D NumPy arrays ($N_x \times N_y \times N_z$).
