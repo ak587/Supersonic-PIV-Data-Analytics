@@ -11,7 +11,7 @@ Experimental data from Particle Image Velocimetry (PIV) in high-speed aerodynami
 This repository contains a **custom Python data pipeline** designed to autonomously ingest, reshape, and statistically process 1,000 discrete PIV datasets of an under-expanded supersonic jet ($M = 1.0$). The pipeline programmatically extracts stable turbulence metrics and identifies complex aerodynamic features.
 
 ### Analytics Impact & Scale
-* **Data Ingestion:** Automated the parsing and structural reshaping of 1,000 raw CSV files into 3D NumPy arrays ($N_x \times N_y \times N_z$).
+* **Data Ingestion:** Automated the parsing and structural reshaping of 1,000 raw CSV files into 3D NumPy arrays ($N_x \times N_y \times t$).
 * **Statistical Convergence:** Systematically compared results at $N=100$ vs $N=1000$ samples to quantify the exact sample size required to resolve fine-scale shear layer turbulence (RMS convergence).
 * **Algorithmic Feature Extraction:** Replaced manual "eyeballing" with programmatic gradient-tracking to pinpoint exact shock wave locations.
 
